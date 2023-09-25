@@ -1,0 +1,13 @@
+/*Ana Luiza Cericatto 8918460*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: hsla(240, 30%, 67%, 0.7);
+    height: 100vh;
+    width: 100vw;
+  }
+
+h2 {
+  color: #00F;
+  font-size: 150%;
+}
+
