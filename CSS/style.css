@@ -1,6 +1,12 @@
 /*Ana Luiza Cericatto 8918460*/
 body {
-    font-family: 'Roboto', sans-serif;
+    /*font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: normal;
+    font-family: 'Roboto', sans-serif;*/
+    font: normal normal normal 15px/1.5 'Roboto', sans-serif ;
     background-color: hsla(240, 30%, 67%, 0.7);
     height: 100vh;
     width: 100vw;
