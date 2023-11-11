@@ -4,6 +4,7 @@ body {
     background-color: hsla(240, 30%, 67%, 0.7);
     height: 100vh;
     width: 100vw;
+    max-width: 100vw;
   }
 
 h2 {
@@ -46,10 +47,84 @@ footer{
   color: rgb(94, 23, 23);
 }
 
-a:hover {
+form{
+  border: 5px dashed darkviolet;
+  padding: 5px;
+}
+
+.required::after{
+  content : " *";
+  color: red;
+}
+
+input[type=radio], input[type=checkbox]
+{
+  width : 2em;
+  height: 2em;
+  margin: 5px;
+}
+
+input[type=submit], input[type=email], input[type=text], select, option{
+  width: 50%;
+  display: block;
+  height: 2em;
+
+}
+
+select, option, label, legend, input[type=submit] {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-variant: small-caps;
+
+}
+
+textarea{
+  width: 50%;
+  display: block;
+}
+
+fieldset{
+  border: none;
+}
+
+aside a:hover {
   color: #86F;
 }
 
 footer p{
   font-size: 10px;
 }
+
+aside li {
+  list-style-type: square;
+  line-height: 2rem;
+}
+aside li a {
+  color: rgba(86, 3, 68, 90%);
+}
+
+h1 {
+  color: darkblue; 
+  font-size: 50px
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+}
+
+nav a{
+  border: 2px solid indigo;
+  color: indigo;
+  background-color: cornsilk;
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+nav a:hover{
+  border: 2px solid cornsilk;
+  color: cornsilk;
+  background-color: indigo;
+}
+

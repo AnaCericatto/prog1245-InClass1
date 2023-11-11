@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--Ana Luiza Cericatto Acericatto8460@conestogac.on.ca-->
+<html>
+  <head>
+    <title>Genshin Foods</title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Description of food you can make in genshin"
+    />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <header class="structural">
+      <h1>Genshin Foods</h1>
+    </header>
+    <nav class="structural">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <main class="structural">
+      <h2>Contact</h2>
+      <form action="">
+        <div>
+          <label for="name" class="required">Name</label>
+          <input type="text" id="name" name="name" required autofocus />
+        </div>
+
+        <div>
+          <label for="email" class="required">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <fieldset>
+          <legend class="required">What section of PROG1245 are you in?</legend>
+          <input type="radio" id="4" name="sec" value="4" required checked />
+          <label for="4">Section 4</label><br />
+          <input type="radio" id="5" name="sec" value="5" />
+          <label for="5">Section 5</label><br />
+          <input type="radio" id="8" name="sec" value="8" />
+          <label for="8">Section 8</label><br />
+        </fieldset>
+
+        <div>
+          <label for="help" class="required">What do you need help with?</label
+          ><br />
+          <select id="help" name="help" required>
+            <option value="">Select option</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="both">Both (HTML & CSS)</option></select
+          ><br />
+        </div>
+
+        <div>
+          <label for="comment" class="required">Comment</label><br />
+          <textarea name="comment" rows="4" required> </textarea>
+        </div>
+
+        <div>
+          <input
+            type="checkbox"
+            id="human"
+            name="human"
+            value="true"
+            required
+          />
+          <label for="human" class="required"> I am a human</label>
+        </div>
+
+        <div>
+          <input type="submit" value="Submit" id="submit" />
+        </div>
+      </form>
+    </main>
+    <aside class="structural">
+      <h2>Types</h2>
+      <ul>
+        <li>
+          <a href="https://genshin-impact.fandom.com/wiki/Food" target="_blank"
+            >Normal Food</a
+          >
+        </li>
+        <li>
+          <a href="https://genshin-impact.fandom.com/wiki/Food" target="_blank"
+            >Character Food</a
+          >
+        </li>
+      </ul>
+    </aside>
+
+    <footer class="structural">
+      <p>&copy; Ana Cericatto 2023</p>
+    </footer>
+  </body>
+</html>
